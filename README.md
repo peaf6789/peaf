@@ -11,8 +11,12 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+# Header 1  
+   source"https://rubugems.org"
+     gem'github-pages'
 ## Header 2
+   GitHubpages::Dependencies.gems.each do|gems,version|s.add_dependency(gem,"=#{version}") 
+   end
 ### Header 3
 
 - Bulleted
